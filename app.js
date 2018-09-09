@@ -1,21 +1,3 @@
-// const login = [
-//     {
-//         username: "flipkart",
-//         password: "welcome"
-//     },
-//     {
-//         username: "google",
-//         password: "hello123"
-//     },
-//     {
-//         username: "facebook",
-//         password: "comeon"
-//     },
-//     {
-//         username: "amazon",
-//         password: "goodtext"
-//     },
-// ];
 async function jsonData(){
     const response = await fetch('login.json');
     const data = response.json();
