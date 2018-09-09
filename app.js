@@ -43,6 +43,7 @@ jsonData()
         }
         p.innerHTML = "Wrong username or password!";
         p.className = 'failure';
+        user.focus();
         clearData(user, pass,p);
     })
     .catch(err => console.log(err))
